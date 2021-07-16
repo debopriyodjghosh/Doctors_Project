@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,
+body {
+    background-color: #aeb8df;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 80%;
+    align-content: center;
+}
+
+.header {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+
+/* Rectangle 58 */
+
+#rectangle {
+    position: absolute;
+    width: 63px;
+    height: 27px;
+    background: #A79B9B;
+    border-radius: 20px;
+}
+
+.card {
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.input-group-prepend span {
+    width: 40px;
+    background-color: #FFC312;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    margin-left: 350px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
