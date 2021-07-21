@@ -28,7 +28,7 @@ button {
     padding: 15px;
     width: 800px;
     min-height: 400px;
-    margin: 5% auto 0 auto;
+    margin: 2% auto 0 auto;
 }
 
 .login .heading {
@@ -162,6 +162,39 @@ button {
 .float:active {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
+}
+
+.toggle {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .toggle {
+        flex-direction: column;
+    }
+}
+
+.toggle input {
+    display: none;
+}
+
+.toggle label.active {
+    background: #1628cf;
+}
+
+.toggle label {
+    width: 80px;
+    height: 25px;
+    margin: 0 20px;
+    border-radius: 999px;
+    background: #9fa4d8;
+    cursor: pointer;
+    transition: 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 5px;
 }
 
 
